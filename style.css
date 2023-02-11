@@ -1,0 +1,56 @@
+*{
+
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100vw;
+    height: 100vh;
+    background: radial-gradient(circle at 50%,
+    #333,
+    #333 -50%,
+        #eee 75%,
+        #333 75%);
+      
+
+
+}
+
+.calculator{
+    width: 50%;
+    text-align: center;
+    box-shadow: 0 0 2px #ddd;
+    border-bottom: .3rem;
+    margin: auto;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.screen{
+    height: 10vh;
+    background-color: #333;
+    text-align: right;
+    font-size: 1.5rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+button{
+    width: 33.3333%;
+    padding: .3rem;
+    font-weight: bold;
+}
+
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.test{
+    background-color: sandybrown;
+}
